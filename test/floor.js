@@ -1,8 +1,8 @@
 import * as R from 'ramda';
 import { assert } from 'chai';
 
-import * as RA from '../src';
-import Symbol from './shared/Symbol';
+import * as RA from '../src/index.js';
+import Symbol from './shared/Symbol.js';
 
 describe('floor', function () {
   it('should floor float to nearest integer', function () {

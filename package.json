@@ -1,5 +1,6 @@
 {
   "name": "ramda-adjunct",
+  "type": "module",
   "description": "Ramda Adjunct is the most popular and most comprehensive set of utilities for use with Ramda, providing a variety of useful, well tested functions with excellent documentation.",
   "keywords": [
     "ramda",

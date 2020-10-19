@@ -1,10 +1,10 @@
 import { assert } from 'chai';
 import * as R from 'ramda';
 
-import * as RA from '../src';
-import element from './shared/element';
-import args from './shared/arguments';
-import Symbol from './shared/Symbol';
+import * as RA from '../src/index.js';
+import element from './shared/element.js';
+import args from './shared/arguments.js';
+import Symbol from './shared/Symbol.js';
 
 class Bar {
   constructor() {

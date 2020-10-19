@@ -1,9 +1,9 @@
 import * as R from 'ramda';
 import { assert } from 'chai';
 
-import * as RA from '../src';
-import Symbol from './shared/Symbol';
-import { signPonyfill } from '../src/sign';
+import * as RA from '../src/index.js';
+import Symbol from './shared/Symbol.js';
+import { signPonyfill } from '../src/sign.js';
 
 describe('sign', function () {
   it('should return proper sign result', function () {

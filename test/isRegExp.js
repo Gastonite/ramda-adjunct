@@ -1,9 +1,9 @@
 import { assert } from 'chai';
 import * as R from 'ramda';
 
-import * as RA from '../src';
-import args from './shared/arguments';
-import Symbol from './shared/Symbol';
+import * as RA from '../src/index.js';
+import args from './shared/arguments.js';
+import Symbol from './shared/Symbol.js';
 
 describe('isRegExp', function () {
   context('given a `RegExp` value', function () {

@@ -2,7 +2,7 @@ import { assert } from 'chai';
 import { NEL, Nil } from 'monet';
 import * as R from 'ramda';
 
-import * as RA from '../src';
+import * as RA from '../src/index.js';
 
 let throwsOnIncompatibleSemigroups = false;
 

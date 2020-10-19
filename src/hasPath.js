@@ -1,6 +1,6 @@
 import { length, has, path, head, tail, curryN } from 'ramda';
 
-import isObj from './isObj';
+import isObj from './isObj.js';
 
 /**
  * Returns whether or not an object has an own property with the specified name at a given path.

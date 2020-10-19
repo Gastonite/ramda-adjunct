@@ -1,6 +1,6 @@
 import { curry, over, lensPath } from 'ramda';
 
-import mergeRight from './mergeRight';
+import mergeRight from './mergeRight.js';
 
 /**
  * Create a new object with the own properties of the object under the `path`

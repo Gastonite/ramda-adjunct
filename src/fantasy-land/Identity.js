@@ -1,6 +1,6 @@
 import { empty as emptyR } from 'ramda';
 
-import fl from './mapping';
+import fl from './mapping.js';
 import {
   applyTrait,
   functorTrait,
@@ -8,7 +8,7 @@ import {
   semigroupTrait,
   chainTrait,
   ordTrait,
-} from './traits';
+} from './traits.js';
 
 // we do this here for jsdocs generate properly
 const { of, ap, map, equals, concat, chain, lte, empty, contramap } = fl;

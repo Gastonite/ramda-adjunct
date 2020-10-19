@@ -1,9 +1,9 @@
 import { assert } from 'chai';
 import * as R from 'ramda';
 
-import * as RA from '../src';
-import Symbol from './shared/Symbol';
-import args from './shared/arguments';
+import * as RA from '../src/index.js';
+import Symbol from './shared/Symbol.js';
+import args from './shared/arguments.js';
 
 describe('isFalsy', function () {
   context('given falsy value', function () {

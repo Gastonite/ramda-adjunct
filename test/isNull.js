@@ -1,8 +1,8 @@
 import { assert } from 'chai';
 import * as R from 'ramda';
 
-import * as RA from '../src';
-import Symbol from './shared/Symbol';
+import * as RA from '../src/index.js';
+import Symbol from './shared/Symbol.js';
 
 describe('isNull', function () {
   context('given a null value', function () {

@@ -1,11 +1,11 @@
 import { assert } from 'chai';
 import * as R from 'ramda';
 
-import * as RA from '../src';
-import Symbol from './shared/Symbol';
-import args from './shared/arguments';
-import genFunc from './shared/genFunc';
-import asyncFunc from './shared/asyncFunc';
+import * as RA from '../src/index.js';
+import Symbol from './shared/Symbol.js';
+import args from './shared/arguments.js';
+import genFunc from './shared/genFunc.js';
+import asyncFunc from './shared/asyncFunc.js';
 
 describe('isFunction', function () {
   it('should test value for a `Function`', function () {

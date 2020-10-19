@@ -1,6 +1,6 @@
 import { curry, dropWhile, join, pipe, split } from 'ramda';
 
-import contained from './contained';
+import contained from './contained.js';
 
 /**
  * Removes specified characters from the beginning of a string.
